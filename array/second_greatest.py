@@ -1,5 +1,5 @@
 
-print("Bubble sorting\n")
+print("second greatest\n")
 a=[]
 n= int(input("enter no of elements"))
 print("enter elements")
@@ -16,4 +16,4 @@ for i in range(0,n):
          a[j]=a[j+1]
          a[j+1] = tmp
     
-print(a)
+print(a[-2])
