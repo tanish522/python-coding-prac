@@ -1,6 +1,4 @@
-# binary search in python
-
-# Hello World program in Python
+# binary search 
     
 print "Hello World!\n"
 a=[1,5,10,20,40,50,100]

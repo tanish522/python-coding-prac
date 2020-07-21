@@ -1,4 +1,4 @@
-# Hello World program in Python
+# linear search program in python
     
 print "Hello World!\n"
 a=[1,5,10,20,40,50,100]
