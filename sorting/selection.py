@@ -17,9 +17,7 @@ for i in range(0,n):
         if a[min] > a[j]:
             min=j
         
-    tmp=a[min]
-    a[min]=a[i]
-    a[i]=tmp
+    a[i],a[min]=a[min],a[i]
     
 for i in range(n): 
     print(a[i])

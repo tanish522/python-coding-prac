@@ -12,6 +12,7 @@ for i in range(n):
 
 def partition(arr,l,h):
     i= l-1
+    print(l)
     pivot = arr[h]
     for j in range(l , h):     
         # If current element is smaller than or equal to pivot

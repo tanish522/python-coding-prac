@@ -13,8 +13,8 @@ for i in range(n):
 def sort(arr):
     if len(arr)>1:
         mid=len(arr)//2
-        l = arr[ :mid]
-        r = arr[mid: ]
+        l = arr[ :mid]  # mid pehlana badha no
+        r = arr[mid: ]  # mid pachina badha no
         
         sort(l) #sort first half
         sort(r) #sort second half
